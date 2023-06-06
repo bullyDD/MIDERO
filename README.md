@@ -43,7 +43,7 @@ Then create a new folder or move in the directory of your choice and clone this 
     git clone https://github.com/bullyDD/MIDERO.git
 
 ## Tools
-For my programming journey, I used Adacore IDE named gnatstudio which I think is a nice tools if you program with Ada. It is available on <https://adacore.com/downloads>.
+For my programming journey, I used Adacore IDE named gnatstudio which I think is a nice tools if you program with Ada. It is available on <https://adacore.com/download>.
 
 ## Build
 Inside midero repo, issue this command to install all dependencies, build gpr file and open gnatstudio:
