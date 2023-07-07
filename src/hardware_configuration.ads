@@ -38,6 +38,8 @@ with STM32.Device;
 with STM32.GPIO;
 with STM32.Timers;
 
+pragma elaborate_all (STM32);
+
 package Hardware_Configuration is   
    use STM32;
    use STM32.Device;
