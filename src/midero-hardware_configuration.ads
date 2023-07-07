@@ -40,7 +40,7 @@ with STM32.Timers;
 
 pragma elaborate_all (STM32);
 
-package Hardware_Configuration is   
+package Midero.Hardware_Configuration is   
    use STM32;
    use STM32.Device;
    use STM32.GPIO;
@@ -101,4 +101,4 @@ package Hardware_Configuration is
    Motor4_PWM_Output_AF  : constant STM32.GPIO_Alternate_Function := GPIO_AF_TIM4_2;
    Motor4_Polarity1      : GPIO_Point renames PC5;
    Motor4_Polarity2      : GPIO_Point renames PC4;
-end Hardware_Configuration;
+end Midero.Hardware_Configuration;

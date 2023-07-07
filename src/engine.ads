@@ -33,16 +33,19 @@
 --  physical 12V DC motor. Allowing client to control it                    --
 ------------------------------------------------------------------------------
 with Beta_Types;
+with STM32;
 with STM32.Device;
 with STM32.GPIO;
 with STM32.PWM;
 with STM32.Timers;
 
-with Common;
+with Midero;
 with Quadrature_Encoders;
 
+pragma elaborate_all (STM32);
+
 package Engine is
-   use Common;
+   use Midero;
    use Beta_Types;
    use STM32.Device;
    use STM32.GPIO;
